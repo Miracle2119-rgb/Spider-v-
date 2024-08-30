@@ -7,7 +7,7 @@ global.namaCreator = "𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒"
 global.autoJoin = false 
 global.antilink = false 
 global.versisc = '6.0' 
-global.codeInvite = "https://whatsapp.com/channel/0029VaaqaSp0LKZDuwe5SI3e"
+global.codeInvite = "https://Wa.me/2349042566473?text=Boss%20ＫＩＮＧ🍀Ｍ-ＣＲＯＳＳ%20my%20name%20is___%20and%20I've%20saved%20your%20contact%20you%20should%20please%20save%20mine%20too%20%20✅"
 global.isLink = 'https://whatsapp.com/channel/0029VaaqaSp0LKZDuwe5SI3e'
 global.sessionName = 'session'
 global.thumb = fs.readFileSync("./thumb.png") 
